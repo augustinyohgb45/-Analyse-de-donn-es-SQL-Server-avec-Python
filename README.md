@@ -1,38 +1,81 @@
-# -Analyse-de-donn-es-SQL-Server-avec-Python
-Ce projet a pour objectif de connecter une base de données SQL Server (AdventureWorksDW2016_EXT) à Python afin de réaliser des analyses exploratoires et des visualisations claires et pertinentes.
+# 📊 Analyse de Données SQL Server avec Python
 
-🎯 Objectifs
-Extraire des données depuis SQL Server avec SQLAlchemy et pandas.
+Projet d'analyse exploratoire de données connectant une base **SQL Server** (AdventureWorksDW2016_EXT) à **Python** pour produire des visualisations claires et pertinentes sur les données de ventes.
 
-Nettoyer et transformer les données (gestion des valeurs manquantes, jointures, agrégations).
+---
 
-Réaliser des analyses statistiques simples (totaux, comptages, distributions).
+## 🎯 Objectifs
 
-Produire des visualisations professionnelles avec Matplotlib et Seaborn.
+- Connecter Python à une base de données SQL Server en production
+- Réaliser des analyses exploratoires sur les données de ventes
+- Produire des visualisations graphiques pour la prise de décision
+- Identifier les tendances, performances et anomalies dans les ventes
 
-🛠️ Technologies utilisées
-Python 3
+---
 
-Pandas pour la manipulation des données
+## 📈 Analyses réalisées
 
-SQLAlchemy pour la connexion à SQL Server
+- 📊 **Analyse des ventes** — Évolution du chiffre d'affaires par période
+- 🏆 **Top produits** — Produits les plus vendus et les plus rentables
+- 🌍 **Analyse géographique** — Répartition des ventes par région
+- 📅 **Tendances temporelles** — Saisonnalité et évolution des performances
+- 👥 **Analyse clients** — Segmentation et comportement d'achat
 
-Matplotlib et Seaborn pour les graphiques
+---
 
-📈 Résultats obtenus
-Classement des produits par chiffre d’affaires.
+## 🛠️ Technologies utilisées
 
-Visualisation du Top 10 des produits les plus vendus.
+| Technologie | Usage |
+|---|---|
+| Python 3.x | Langage principal |
+| Pandas | Manipulation et analyse des données |
+| Matplotlib | Visualisation et graphiques |
+| pyodbc / SQLAlchemy | Connexion à SQL Server |
+| SQL Server | Base de données (AdventureWorksDW2016_EXT) |
+| Jupyter Notebook | Environnement d'analyse interactif |
 
-Distribution des prix des produits.
+---
 
-Analyse des produits filtrés par couleur (ex. produits rouges).
+## ⚙️ Installation
 
-🚀 Perspectives
-Ce projet peut être enrichi par :
+```bash
+# Cloner le repository
+git clone https://github.com/augustinyohgb45/-Analyse-de-donn-es-SQL-Server-avec-Python.git
+cd Analyse-donnees-SQL-Python
 
-L’ajout de statistiques avancées (moyennes, médianes, corrélations).
+# Installer les dépendances
+pip install pandas matplotlib pyodbc sqlalchemy jupyter
 
-L’intégration de tableaux de bord interactifs avec Plotly ou Dash.
+# Configurer la connexion SQL Server dans config.py
+# SERVER = 'votre_serveur'
+# DATABASE = 'AdventureWorksDW2016_EXT'
 
-L’automatisation des exports vers Excel ou Power BI.
+# Lancer Jupyter Notebook
+jupyter notebook
+```
+
+---
+
+## 📊 Exemples de visualisations
+
+- Graphiques en barres — Comparaison des ventes par catégorie
+- Courbes d'évolution — Tendances mensuelles et annuelles
+- Histogrammes — Distribution des transactions
+- Graphiques circulaires — Répartition des ventes par région
+
+---
+
+## 💡 Compétences démontrées
+
+- Connexion et requêtage d'une base de données SQL Server depuis Python
+- Nettoyage et transformation des données avec Pandas
+- Création de visualisations professionnelles avec Matplotlib
+- Analyse exploratoire et interprétation des données métier
+
+---
+
+## 👨‍💻 Auteur
+
+**Yoh Jean Augustin Gbetibouo**
+📧 gbetibouoyohjean@gmail.com
+🔗 [GitHub](https://github.com/augustinyohgb45)
